@@ -1,7 +1,7 @@
 .envelope-screen {
   position: fixed;
   inset: 0;
-  background-image: url("../assets/img/fondoSobre.jpg");
+  background-image: url("../assets/img/Fondo.png");
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(10px);
@@ -210,7 +210,8 @@
 .album-art {
   width: 100%;
   height: 160px;
-  background: url("../assets/img/kali.webp") center/cover no-repeat;
+  background: url("../assets/img/a2de05723a84f8c9924f8b1dbb292acb.webp")
+    center/cover no-repeat;
   background-position: top;
 
   border: 1px solid var(--gold-elegant);
@@ -771,7 +772,7 @@
   --------------------------*/
 .section-message {
   position: relative;
-  background-image: url("../assets/img/fondoSobre.jpg");
+  background-image: url("../assets/img/Fondo.png");
   background-position: center;
   background-size: cover;
   padding: 3rem 1rem 4rem;

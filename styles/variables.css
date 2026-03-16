@@ -4,41 +4,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
 
 :root {
-  --gold-gradient: linear-gradient(120deg, #f6e27a, #c9a44c, #a57c2c, #f6e27a);
-  --rose: #a07070;
-  --rose-main: #c9a3a6;
-  --rose-light: #f2e6e7;
-  --gold-elegant: #c9a44c;
-  --gray-pearl: #8f8a86;
-  --ivory-paper: #f7f3eb;
+  --gold-gradient: linear-gradient(120deg, #f7e7b0, #d4af7a, #b8965a, #f7e7b0);
 
-  --bg-section-light: #fffaec;
-  --bg-section-dark: #2c2c2c;
+  --rose: #b07a7f; /* rosa viejo elegante */
+  --rose-main: #d8a7a9; /* rosa principal suave */
+  --rose-light: #f5e6e7; /* fondo rosado claro */
 
+  --gold-elegant: #d4af7a; /* dorado champagne */
+  --gold-soft: #f0d9a7; /* brillo suave */
+
+  --gray-pearl: #a39c94; /* gris cálido */
+  --ivory-paper: #fdf7f0; /* papel premium */
+
+  /* 🎭 Fondos */
+  --bg-section-light: #fff6f7; /* rosa ultra claro */
+  --bg-section-dark: #3a2f2f; /* oscuro cálido (no negro) */
+
+  /* ✨ Gradiente principal elegante */
   --bg-gradient: linear-gradient(
-    131deg,
-    #eee6da -3.63%,
-    #8b7e64 60.5%,
-    #8c7f65 100.94%
+    135deg,
+    #fff1f2 0%,
+    #e6cfc1 40%,
+    #c9a4a4 70%,
+    #b8965a 100%
   );
 
   --font-titulos: "Playfair Display", serif;
   --font-subtitulos: "Great Vibes", cursive;
   --font-texto: "PT Serif", serif;
-
-  --img-photo-home: url(../img/Photo-home.webp);
-  --img-F1: url(../img/c1.jpeg);
-  --img-F2: url(../img/c2.jpeg);
-  --img-F3: url(../img/c3.jpeg);
-  --img-F4: url(../img/portada.jpeg);
-  --img-F5: url(../img/c2.jpeg);
-
-  --img-overlay-stain-1: url(../img/stain-1.svg);
-  --img-overlay-stain-2: url(../img/stain-2.svg);
-
-  --img-overlay-points-1: url(../img/points-2.svg);
-  --img-overlay-points-2: url(../img/points-2.svg);
-  --img-overlay-leaf-1: url(../assets/img/);
-  --img-overlay-leaf-2: url(../img/leaf-2.svg);
-  --img-overlay-leaf-3: url(../img/leaf-3.svg);
 }
